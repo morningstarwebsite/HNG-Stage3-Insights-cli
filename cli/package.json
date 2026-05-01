@@ -1,0 +1,36 @@
+{
+  "name": "insighta-cli",
+  "version": "0.1.0",
+  "description": "Global CLI for Insighta Labs+ backend operations",
+  "type": "module",
+  "bin": {
+    "insighta": "./bin/insighta.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/insighta.js"
+  },
+  "keywords": [
+    "cli",
+    "oauth",
+    "pkce",
+    "insighta"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0",
+    "ora": "^8.1.1"
+  }
+}
